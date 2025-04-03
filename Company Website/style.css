@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:"Poppins", sans-serif; 
+    list-style: none;
+}
+header{
+    background-color: #060652;
+    opacity: 0.9;
+    min-height: 110vh;
+}
+.navbar{
+    display: flex;
+    opacity: 0.9;
+    align-items: center;
+    background-color: #060652;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.logo img{
+    height: 75px;
+    width: 200px;
+ 
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    padding: 1px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    
+}
+.menu ul{
+    
+    display: flex;
+    
+    
+}
+.menu ul li {
+
+    padding: 30px;
+    font-weight: 600;
+    font-size: 600;
+
+}
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-section i{
+    width: 20px;
+    height: auto;
+    color: white;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.btn-1{
+    float: right;
+    padding: 20px;
+    font-size: 15px;
+    width: 150px;
+    font-weight: 700;
+    background-color: rgba(255, 36, 36);
+    color: white;
+    border-radius: 8px;
+
+
+}
+.mainpage{
+    padding: 55px 100px 0;
+
+    display: flex;
+}
+.main-right{
+    padding: 80px 50px 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    width: 60%;
+}
+.main-title{
+
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.main-subtitle{
+
+    color: rgba(180, 178, 174, 0.897);
+}
+.margin-tb-30{
+    margin: 30px 0;
+}
+.main-left{
+    height: 200px;
+    width: 40%;
+    text-align: right;
+}
+.main-left img{
+ 
+    width: auto;
+    height: 500px;
+}
+.btn-mainpage{
+     float: left;
+     font-size: 12px;
+     width: 180px;
+}
+.page-2{
+       display: flex;
+       
+}
+.page-2-right{
+    width: 70%;
+    padding: 240px 50px 80px 350px;
+    line-height: 1.6;
+}
+.h3-2{
+    color: rgb(248, 85, 85);
+    font-size: 15px;
+}
+.h1-2{
+    color: rgb(88, 79, 79);
+    font-size: 44px;
+    padding: 20px 3px;
+}
+.h2-2{
+      color:  rgb(88, 79, 79);
+      font-size: 18px;
+}
+.lastline{
+    color: silver;
+    font-size: 15px;
+    
+
+}
+.page-2-left{
+    width: 30%;
+    padding: 100px 50px 80px 100px;
+    
+}
+.page-2-left img{
+    padding: 100px 50px 80px 40px;
+}
+.btn-2{
+    margin-top: 20px;
+}
+.page-3{
+    text-align: center;
+    justify-content: center;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    word-spacing: 5px;
+}
+.start img{
+    height: 24px;
+    width: auto;
+}
+.getstart h1{
+    font-size: 35px;
+    color: rgb(49, 47, 47);
+    word-spacing: 5px;
+}
+.getstart span{
+    color: rgb(255, 0, 0, 0.9);
+    font-size: 35px;
+    word-spacing: 5px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+     padding: 62px ;
+     
+}
+.login input{
+    width: 220px;
+    margin-right: 18px;
+    border-radius: 8px;
+    text-align: left;
+    padding: 0 0 0 16px;
+    font-size: 17px;
+    background-color: rgb(235, 228, 228);
+    border: transparent;
+    word-spacing: 5px;
+
+}
+.btn-singn{
+      width: 120px;
+}
+.chekbox{
+    padding: 0 0 250px;
+    word-spacing: 5px;
+    color: rgb(105, 102, 102);
+    font-weight: 700;
+}
+.footer{
+    background-color: rgb(237, 235, 247);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(44, 41, 41);
+    padding: 100px 50px 100px 50px;
+    word-spacing: 10px;
+    text-decoration: none;
+}
+.footer h2{
+    font-size: 18px;
+}
+footer a{
+    color: rgb(131, 112, 112);
+    font-weight: 550;
+    font-size: 16px;
+}
+.footer-logo{
+    
+    padding: 50px 0px; 
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo img{
+    height: 100px;
+    width: 195px;
+}
+.footer-logo p{
+    word-spacing: 10px;
+    color: rgb(88, 83, 83);
+    font-weight:550;
+    font-size: 15px;
+    padding: 30px;
+}
+    
+
+.footer-quickline{
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-quickline a{
+    padding: 10px 0px;
+}
+.footer-heading h2{
+    opacity: 0.9;
+}
+.footer-implinks{
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-implinks a{
+    padding: 10px 0px;
+}
+.footer-support{
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-support a{
+    padding: 10px 0px;
+}
+
+.space a{
+    padding: 5px 5px;
+}
+.lastline{
+    color: rgb(105, 102, 102);
+    text-align: center;
+    padding-bottom: 20px;
+    background-color:  rgb(237, 235, 247) ;
+}
